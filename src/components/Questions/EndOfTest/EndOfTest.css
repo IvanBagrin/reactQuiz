@@ -1,0 +1,52 @@
+
+.endoftest__item {
+    width: 95%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #252d4a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 5px;
+    border: 2px solid #234668;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.answer__true {
+    background-color: rgba(50, 255, 19, 0.75);
+}
+
+.answer__false {
+    background-color: rgba(253, 13, 17, 0.753);
+}
+
+.endoftest__checkPasset {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.endoftest__button {
+    width: 70%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #252d4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 5px;
+    cursor: pointer;
+    border: 2px solid #234668;
+    margin: 0 auto;
+    outline: none;
+    margin-top: 10px;
+}
+
+.endoftest__button:hover {
+    background-color: #234668;
+    transition: all 0.3 ease;
+}
